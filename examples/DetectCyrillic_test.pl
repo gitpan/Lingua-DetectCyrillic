@@ -103,15 +103,15 @@ Content-Type: text/html; charset=$Charset
       alternative</td></tr>
      <tr><td>33</td><td>Formally win1251 defined (most probably on analysis of hash)</td></tr>
      <tr class=tr1><td>34</td><td>Formally koi8-r defined (most probably on analysis of hash)</td></tr>
-     <tr><td>40</td><td>Most probably results were chosen, but reliability is very low</td></tr>
+     <tr><td>40</td><td>Most probable results were chosen, but reliability is very low</td></tr>
      <tr class=tr1><td>100</td><td>No single Cyrillic character detected</td></tr>
 </table>
 
 POD
 
-#print "<h5>This is the report:</h5><pre>\n";
-#$CyrDetector -> LogWrite();
-#print "</pre>\n";
+print "<h5>This is the report:</h5><pre>\n";
+$CyrDetector -> LogWrite();
+print "</pre>\n";
 
 print "</body></html>";
 

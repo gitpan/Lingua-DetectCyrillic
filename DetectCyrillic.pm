@@ -19,7 +19,7 @@ use Exporter ();
   use Lingua::DetectCyrillic::WordHash2Rus;
   use Lingua::DetectCyrillic::WordHash2Ukr;
 
-$VERSION = "0.01";
+$VERSION = "0.02";
 
 # Глобальные переменные
 $FullStat=0;
@@ -589,7 +589,7 @@ at http://www.cpan.org .
 
 =over
 
-B<Warning!> This modules requires preleminary compilation with a C++ compiler;
+B<Warning!> This module requires preleminary compilation with a C++ compiler;
 under Unix this procedure goes smoothly and doesn't need commenting;
 but under Win32 with ActiveState Perl you must
 
@@ -842,7 +842,7 @@ under Windows NT+.
       alternative</td></tr>
      <tr><td>33</td><td>Formally win1251 defined (most probably on analysis of hash)</td></tr>
      <tr class=tr1><td>34</td><td>Formally koi8-r defined (most probably on analysis of hash)</td></tr>
-     <tr><td>40</td><td>Most probably results were chosen, but reliability is very low</td></tr>
+     <tr><td>40</td><td>Most probable results were chosen, but reliability is very low</td></tr>
      <tr class=tr1><td>100</td><td>No single Cyrillic character detected</td></tr>
 </table>
 
@@ -873,6 +873,8 @@ under Windows NT+.
 
 =head2 HISTORY
 
+December 01, 2002 - Extensive Russian documentation added. Version changed to 0.02.
+
 November 19, 2002 - version 0.01 released.
 
 =head2 TODO
@@ -889,6 +891,8 @@ What else? Need your feedback!!
 The author: B<Alexei Rudenko>, Russia, Moscow. My home phone is I<(095) 468-95-63>
 
 Web-site: http://www.bible.ru/DetectCyrillic/
+
+CPAN address: http://search.cpan.org/author/RUDENKO/
 
 Email: rudenko@bible.ru
 
