@@ -1,0 +1,15 @@
+DetectCyrillic.pm
+DetectCyrillic/DictRus.pm
+DetectCyrillic/DictUkr.pm
+DetectCyrillic/WordHash2Rus.pm
+DetectCyrillic/WordHash2Ukr.pm
+MANIFEST
+Makefile.PL
+README
+docs/DetectCyrillic.html
+docs/pod.css
+examples/DetectCyrillic_test.htm
+examples/DetectCyrillic_test.pl
+t/1Detect.t
+t/2Convert.t
+t/ExtUtils/TBone.pm
